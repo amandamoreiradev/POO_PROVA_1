@@ -1,0 +1,30 @@
+package poo_prova_1;
+
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+
+/**
+ *
+ * @author Aluno
+ */
+public class Cargo {
+    private String nome;
+
+    public Cargo(String nome) {
+        this.nome = nome;
+    }
+    
+    //construtor aqui
+
+    public String getNome() {
+        return nome;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+    
+    
+}
